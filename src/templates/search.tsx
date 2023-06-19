@@ -45,10 +45,10 @@ export const getHeadConfig: GetHeadConfig<
 };
 
 const headlessConfig: HeadlessConfig = {
-  apiKey: "5472b483d43f25c6dd83c68bb313900f",
-  experienceKey: "find-a-doc",
+  apiKey: "95fc01a43a1e1c046aec8d9329b86cab",
+  experienceKey: "find-a-doctor",
   locale: "en",
-  verticalKey: "healthcare_professionals",
+  verticalKey: "providers",
 };
 
 const searcher = provideHeadless(headlessConfig);
